@@ -36,7 +36,7 @@ public class Demo {
         //序列化
         try {
             String json = objectMapper.writeValueAsString(user);
-            System.out.println("json = " + json);
+            System.out.println("===json = " + json);
             //json = {"id":1,"name":"张三","age":15,"brithday":1583082422463}
             //json = {"id":1,"name":"张三","age":15,"brithday":"2020-03-02 01:19:21 860"}
 
